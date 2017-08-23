@@ -1,0 +1,253 @@
+* {
+	padding:0px;
+	margin:0px;
+	background-color:#0A0018;
+	font-family:Arial; 
+	text-decoration:none;
+	color:white;
+}
+
+#wrapper{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 440px;
+    width: 735px;
+    margin-top: -200px; /* -(1/2 height) */
+    margin-left: -350px; /* -(1/2 width) */
+}
+
+
+
+/* Boxes. */
+.box {
+	cursor:pointer;
+	border:5px solid #E4ADEE;
+	background-color:#F9D7FF;
+	position:static;
+	-moz-box-shadow:    inset 0px 0 10px #000000;
+	-webkit-box-shadow: inset 0px 0 10px #000000;
+	box-shadow:         inset 0px 0 10px #000000;
+}
+
+.dark{
+	background-color:#BE83FF;/*#73367E;*/
+}
+
+
+/* Words. */
+.word {
+	font-weight:bold;
+	color:gray;
+	background-color:transparent;
+	position:absolute;
+	padding:5px;
+}
+.wdark {
+	color:#581274;
+}
+
+
+#box1 {
+	width:380px;
+	height:160px;
+	margin:5px;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+#box2 {
+	width:185px;
+	height:75px;
+	position:absolute;
+	top:5px;
+	left:390px;
+	border-top-left-radius:3px;
+}
+#box3 {
+	width:155px;
+	height:75px;
+	position:absolute;
+	top:5px;
+	left:575px;
+	border-top-right-radius:3px;
+}
+#box4 {
+	width:135px;
+	height:95px;
+	position:absolute;
+	top:80px;
+	left:390px;
+}
+#box5 {
+	width:205px;
+	height:175px;
+	position:absolute;
+	top:80px;
+	left:525px;
+	border-bottom-right-radius:3px;
+}
+/* Absolute */
+#box6 {
+	position:absolute;
+	width:200px;
+	height:40px;
+	top:175px;
+	left:10px;
+	border-top-left-radius:3px;
+}
+#box7 {
+	width:315px;
+	height:40px;
+	position:absolute;
+	top:175px;
+	left:210px;
+}
+#box8 {
+	width:315px;
+	height:40px;
+	position:absolute;
+	top:215px;
+	left:10px;
+}
+#box9 {
+	width:200px;
+	height:40px;
+	position:absolute;
+	top:215px;
+	left:325px;
+}
+/* Absolute End */
+#box10 {
+	width:100px;
+	height:95px;
+	position:absolute;
+	top:255px;
+	left:10px;
+}
+#box11 {
+	width:615px;
+	height:155px;
+	border:5px solid #0A0018;
+	position:absolute;
+	top:255px;
+	left:110px;
+}
+#box12 {
+	width:100px;
+	height:65px;
+	position:absolute;
+	top:350px;
+	left:10px;
+	border-bottom-left-radius:3px;
+	border-bottom-right-radius:3px;
+}
+/* Words. */
+#box1 span {
+	font-size:50px;	
+	top:20px;
+	margin:0px auto;
+	color:#FF00B8;
+	position:absolute;
+}
+.box1_quote{
+	font-style:italic;
+	font-size:16px;
+	color:#440933;
+	width:330px;
+	text-align:right;
+	position:absolute;
+	top:80px;
+	left:40px;
+}
+/*main*/
+#box2 span {
+	font-size:30px;
+}
+#box3 span {
+	font-size:20px;
+	top:40px;
+	left:50px;
+}
+#box4 span {
+	font-size:40px;	
+	top:50%;
+	margin:0px auto;
+}
+/*main*/
+#box5 span {
+	font-size:55px;
+	top:40px;
+	left:40px;
+}
+/*main*/
+#box6 span {	
+	font-size:24px;
+	top:-5px;
+}
+#box7 span {
+	font-size:18px;	
+	left:60px;
+	top:-3px;
+	font-style:italic;
+}
+#box8 span {
+	font-size:25px;
+	left:175px;
+}
+#box9 span {
+	font-size:12px;
+}
+/*main*/
+#box10 span {
+	font-size:20px;	
+}
+#box11 span {
+}
+#box12 span {
+	font-size:20px;
+	font-style:italic;
+	top:20px;
+	left:30px;
+}
+
+/* Banner pictures. */
+
+.banner_pic {
+	width:615px;
+	height:155px;
+	position:absolute;
+	border-bottom-right-radius:3px;
+}
+
+/* Selector buttons. */
+#buttons {
+	background-color:transparent;
+	display:block;
+	position:relative;
+	top:135px;
+	left:513px;
+	display:none;
+}
+.circle {
+	width:15px;
+	height:5px;
+	background-color: #FFD2FF;
+	-moz-box-shadow: 0px 0px 15px purple;
+	-webkit-box-shadow: 0px 0px 15px purple;
+	box-shadow: 0px 0px 15px purple;
+	
+	display: block;
+	float:left;
+	margin:5px;
+	cursor:pointer;
+}
+.circle:hover{
+	background-color:purple;
+}
+
+/* Styling the main plugin. */
+#slider_wrapper {
+	display:block;
+	position:relative;
+}

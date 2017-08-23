@@ -1,0 +1,34 @@
+/* Banner pictures. */
+
+.banner_pic {
+	width:650px;
+	height:300px;
+	position:absolute;
+	margin-top:25px;
+	background: #18479B;
+}
+
+/* Selector buttons. */
+#buttons {
+	background-color:transparent;
+	position:relative;
+	display:inline-block;
+	top:450px;
+	left:780px;
+	z-index:2;
+}
+.circle {
+	width:15px;
+	height:15px;
+	display: block;
+	float:left;
+	margin:5px;
+	cursor:pointer;
+	border-radius:10px;
+}
+
+/* Styling the main plugin. */
+#slider_wrapper {
+	display:block;
+	position:relative;
+}
