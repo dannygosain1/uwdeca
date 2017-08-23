@@ -1,0 +1,54 @@
+.banner-color {
+    background: -moz-linear-gradient(left, rgba(33, 43, 90, 0.9) 0%, rgba(53, 64, 111, 0.9) 100%);
+    background: -webkit-linear-gradient(left, rgba(33, 43, 90, 0.9) 0%, rgba(53, 64, 111, 0.9) 100%);
+    background: -o-linear-gradient(left, rgba(33, 43, 90, 0.9) 0%, rgba(53, 64, 111, 0.9) 100%);
+}
+.banner-content .banner-btn:hover {
+    color: #6174d3;
+}
+.nav-menu {
+    background: rgba(97, 148, 211, 0.9);
+}
+.nav-menu .nav-container {
+    border-bottom: 1px solid #b2de89;
+}
+.nav-menu .nav-container li {
+    border-top: 1px solid #b2de89;
+}
+.active-nav a {
+    color:rgba(122, 78, 203, 0.9);
+}
+.quote .line {
+    background: #6174d3;
+}
+.about .item .ico-ico {
+    color: #6174d3;
+}
+.feature span {
+    color: #6174d3;
+}
+.contact-bg {
+    background: -moz-linear-gradient(left, rgba(53, 64, 111, 0.9) 0%, rgba(53, 64, 111, 0.9) 100%);
+    background: -webkit-linear-gradient(left, rgba(53, 64, 111, 0.9) 0%, rgba(53, 64, 111, 0.9) 100%);
+    background: -o-linear-gradient(left, rgba(53, 64, 111, 0.9) 0%, rgba(53, 64, 111, 0.9) 100%);
+}
+.contact-bg .contact-btn:hover {
+    color: #6174d3;
+}
+.team ul li a:hover {
+    color: #6174d3;
+}
+.portfolio .post:hover {
+    background: -moz-linear-gradient(left, rgba(97, 148, 211, 0.9) 0%, rgba(122, 78, 203, 0.9) 100%);
+    background: -webkit-linear-gradient(left, rgba(97, 148, 211, 0.9) 0%, rgba(122, 78, 203, 0.9) 100%);
+    background: -o-linear-gradient(left, rgba(97, 148, 211, 0.9) 0%, rgba(122, 78, 203, 0.9) 100%);
+}
+.blog .blog-sidebar .social widget span {
+    color: #6174d3;
+}
+.contact-line {
+    background: #6174d3;
+}
+footer a:hover {
+    color: #6174d3;
+}
