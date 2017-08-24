@@ -19,5 +19,11 @@ $("#resourcesHead").click(function() {
 $("#contactHead").click(function() {
     $('html, body').animate({
         scrollTop: $("#contact").offset().top
-    }, 3500);
+    }, 3000);
+});
+
+$("#joinusHead").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#joinus").offset().top
+    }, 3000);
 });
